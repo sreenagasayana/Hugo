@@ -1,0 +1,40 @@
+baseURL = "https://gohugo.io/"
+languageCode = "en-us"
+title = "Let's Learn Hugo"
+Theme = "hugo_theme_beg"
+Paginate = 2
+disqusShortname = "XYW"
+[params]
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About hugo"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "https://gohugo.io/about/what-is-hugo/"
+    weight = -110
+
+  [[menu.main]]
+    identifier = "Getting Started"
+    name = "Getting Started"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "https://gohugo.io/getting-started/"
+    weight = -100
+
+  [[menu.main]]
+    Name = "Teams"
+    identifier = "teams"
+    URL = "#"
+    Weight = 1.0
+
+  [[menu.main]]
+    Name = "Team 1"
+    parent = "teams"
+    URL = "https://gohugo.io/templates/internal/"
+    Weight = 1.0
+
+  [[menu.main]]
+    Name = "Team 2"
+    parent = "teams"
+    URL = "https://discourse.gohugo.io/t/how-to-check-for-home-page/149"
+    Weight = 2.0
