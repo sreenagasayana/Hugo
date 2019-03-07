@@ -1,5 +1,5 @@
 ---
-title: "About Hugo"
+title: "Hugo"
 date: 2019-02-20T13:00:58-06:00
 thumbnail : "images/thumbnail.png" 
 draft: true
